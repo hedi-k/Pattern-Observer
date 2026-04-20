@@ -1,5 +1,7 @@
 Pattern Observateur / Observé (Observer / Observable en anglais)
 
+![Schema du pattern Observer](Schema.png)
+
 Si dans un programme, une méthode x doit être déclenchée à chaque fois qu’une méthode y l’est ou le décide.
 Première solution (pas la bonne) l’attente active :
 	main interroge y tous les 10ms : « as-tu fait g() ? »
